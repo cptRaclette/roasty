@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+header {
+    background-color:#b4befe;
+    color: #313244;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+header img {
+    position: absolute;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-align: center;
+}
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #313244;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.center {
+    text-align: center;
+}
+.file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.file-upload img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 80px;
+}
+.file-upload input[type="file"] {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 1em;
+}
+.roast-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #fab387;
+    color: #313244;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.roast-button:hover {
+    background-color: #f38ba8;
+}
+.quotes-section {
+    margin-top: 40px;
+    padding: 20px;
+    background: #bac2de;
+    border-radius: 8px;
+    color: #313244
+}
+.quote {
+    margin-bottom: 15px;
+    font-style: italic;
+}
+.quote::before {
+    content: "“";
+    font-size: 1.5em;
+    color: #f38ba8;
+}
+.quote::after {
+    content: "”";
+    font-size: 1.5em;
+    color: #f38ba8;
+}
+.quote-author {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0.9em;
+    color: #888;
+}
